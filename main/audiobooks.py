@@ -12,8 +12,8 @@ try:
 
     for i in range(pages):
         audio = pyttsx3.init()
-        #to_audio = pdf_reader.getPage(0)
-        #text = page.extractText()
+        to_audio = pdf_reader.getPage(0)
+        text = page.extractText()
         audio.runAndWait()
 
     print("Done.")
